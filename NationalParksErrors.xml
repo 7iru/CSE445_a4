@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ERROR 1: Root element name is "NationalPark" instead of "NationalParks" -->
+<NationalPark Rating="4.9">
+  <Name>Grand Canyon</Name>
+  <Phone>928-638-7496</Phone>
+  <!-- ERROR 3: Phone element is missing on this park -->
+  <!-- ERROR 5: Two names provided -->
+  <Name>Grand Canyon South Rim</Name>
+  <Address>
+    <Number>8</Number>
+    <!-- ERROR 4: Address has no closing tag -->
+    <Street>S Entrance Road
+  </Address>
+  <!-- ERROR 2: Required attribute Rating is missing on this park -->
+</NationalPark>
