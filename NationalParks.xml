@@ -3,7 +3,6 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml NationalParks.xsd">
 
-<NationalParks>
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -21,7 +20,7 @@
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
-    <Address>
+    <Address NearestAirport="Bozeman">
       <Number>2</Number>
       <Street>Grand Loop Road</Street>
       <City>Yellowstone National Park</City>
@@ -29,7 +28,7 @@
       <Zip>82190</Zip>
     </Address>
   </NationalPark>
-  
+
   <NationalPark Rating="4.9">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
@@ -56,10 +55,10 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.7">
+  <NationalPark>
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
-    <Address>
+    <Address NearestAirport="Bangor">
       <Number>20</Number>
       <Street>McFarland Hill Drive</Street>
       <City>Bar Harbor</City>
@@ -82,7 +81,7 @@
     </Address>
   </NationalPark>
 
- <NationalPark Rating="4.8">
+  <NationalPark Rating="4.8">
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
     <Phone>406-888-7801</Phone>
@@ -108,17 +107,17 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.6">
+  <NationalPark>
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
-    <Address>
+    <Address NearestAirport="Palm Springs">
       <Number>74485</Number>
       <Street>National Park Drive</Street>
       <City>Twentynine Palms</City>
       <State>CA</State>
       <Zip>92277</Zip>
     </Address>
-  </NationalPark> 
+  </NationalPark>
 
   <NationalPark Rating="4.5">
     <Name>Petrified Forest</Name>
@@ -132,5 +131,5 @@
       <Zip>86028</Zip>
     </Address>
   </NationalPark>
-  
+
 </NationalParks>
